@@ -1,0 +1,36 @@
+/* Style for the leaderboard table */
+body{
+	align-content: center;
+}
+table {
+    width: 80%; /* Adjust the width as needed */
+    margin: 6rem ; /* Center the table horizontally and leave space from the top */
+    border-collapse: collapse;
+    margin-left: 200px;
+    }
+
+/* Style for table header */
+th {
+    background-color: #000;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+/* Style for table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for table cells */
+td {
+    padding: 8px;
+    color: black;
+}
+
+/* Style for table header and cell text */
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}

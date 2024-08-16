@@ -1,0 +1,112 @@
+/* Center the container */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+body{
+	background-image: url(../resource/images/pxfuel.jpg);
+  background-size: cover;
+  background-attachment: fixed;    
+  background-repeat: no-repeat;
+  background-position: center;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #000; /* Black color */
+  color: #fff; /* White color */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333; /* Darker shade of black */
+}
+/* Make text color inside container black */
+body, h1, p, a, li {
+  color: #000;
+}
+
+/* Additional styling */
+.main {
+  background: #fff;
+  width: 350px;
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, .5);
+  text-align: center; /* Center text inside .main */
+  
+}
+
+.info {
+  text-align: center;
+  background: #fff;
+  background: linear-gradient(to left bottom, #932050 50%, #e8e8e8 50%);
+  background: -webkit-linear-gradient(to left bottom, #932050 50%, #e8e8e8 50%);
+  border-radius: 15px 15px 0 0;
+  padding-top: 20px; /* Adjust padding */
+  padding-bottom: 20px; /* Adjust padding */
+}
+
+.prof {
+  width: 150px;
+  height: 150px;
+  margin: 10px auto; /* Center image horizontally */
+}
+
+h1 {
+  font-weight: 100;
+  margin: 0; /* Remove default margin */
+}
+
+.body {
+  text-align: center;
+  padding-top: 20px; /* Adjust padding */
+  padding-bottom: 20px; /* Adjust padding */
+  
+}
+
+.footer {
+  width: 100%; /* Adjust width */
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  bottom: 20px; /* Adjust distance from bottom */
+}
+
+a {
+  color: #932050;
+  transition: all .2s ease-in-out;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+a:hover {
+  color: #7979B2;
+}
+
+hr {
+  margin-bottom: 20px; /* Adjust margin */
+}
+
+ul {
+  width: 80%; /* Limit the width of the list */
+  margin: 0 auto; /* Center the list horizontally */
+  text-align: left;
+}
+
+.fa-li {
+  color: pink;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+li:hover {
+  .fa-li {
+    color: black;
+  }
+}
+

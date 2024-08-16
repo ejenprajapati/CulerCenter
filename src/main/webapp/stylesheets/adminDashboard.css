@@ -1,0 +1,157 @@
+@charset "ISO-8859-1";
+
+body {
+  margin: 0;
+  background-image: url(../resource/images/pxfuel.jpg);
+  background-size: cover;
+  background-attachment: fixed;    
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#content {padding-top:150px;
+    position: relative;
+    width: calc(100% - 280px);
+    left: 280px;
+    transition: .3s ease;
+    margin-right: 20px;
+}
+
+#content main .head-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 16px;
+    flex-wrap: wrap;
+}
+
+#content main {
+	width: 100%;
+	padding: 36px 24px;
+	font-family: var(--poppins);
+	max-height: calc(100vh - 56px);
+	overflow-y: auto;
+	margin-top:70px;
+	border: black solid 2px;
+	
+}
+#content main .box-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 24px;
+    margin-top: 36px;
+    
+}
+.main-container{
+	display:flex;
+	flex-direction:column;
+	text-align: center;
+}
+
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.card {
+	
+  width: 17%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #161632;
+  border: 1px solid #000;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color:#FFF;
+}
+
+.card-text {
+  font-size: 16px;
+  color: rgb(255, 255, 0); /* Black color */
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #000; /* Black color */
+  color: #fff; /* White color */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333; /* Darker shade of black */
+}
+
+.add-container {
+    align-items: right;
+    margin-top: 100px;
+ 
+    /* position: relative; */ /* Ensure positioning context */
+   /* Adjust to a higher value */
+}
+
+add-button{
+	width:200%;
+	
+	
+}
+
+    .vote-button {
+        padding: 10px 20px;
+        margin: 5px;
+        background-color: #3264fe;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+}
+
+#voteInput {
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: black; /* Set text color to black */
+}
+
+.vote-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.vote-button:hover {
+    background-color: #45a049;
+}
+#voteInput option {
+    color: black; /* Change the color of all options */
+}
+
